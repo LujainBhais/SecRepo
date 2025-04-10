@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-         System.out.print("Enter your choice (A,B,C or D) : \n A: Converts a temperature from Celsius to Fahrenheit.\n B: Enter two number then output the next 6 number where the number is the subtract of previous two number \n C: Print a right-aligned decreasing number pattern.\n C: Reverse the digits of an entered integer");
+         System.out.print("Enter your choice (A,B,C or D) : \n A: Converts a temperature from Celsius to Fahrenheit.\n B: Enter two number then output the next 6 number where the number is the subtract of previous two number \n C: Print a right-aligned decreasing number pattern.\n D: Reverse the digits of an entered integer");
         System.out.print(" \n Enter character : ");
          char choice=input.next().charAt(0);
 
